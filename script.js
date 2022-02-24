@@ -13,5 +13,5 @@ function bubbleSorting(sortList) {
 }
 
 const sortList = [6, 12, 4, 3, 8, 13, 2, 100, 55, 37];
-sorting(sortList);
+bubbleSorting(sortList);
 console.log(sortList);
