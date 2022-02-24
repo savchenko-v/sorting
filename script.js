@@ -1,4 +1,4 @@
-function sorting(sortList) {
+function bubbleSorting(sortList) {
     for (var i = 0; i < sortList.length-1; i++) {
         for (var j = 0; j < sortList.length-i; j++) {
              if (sortList[j+1] < sortList[j]) {
